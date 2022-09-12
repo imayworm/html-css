@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/*config tela em pé*/
+
+body {
+    background: url("../imagens/cev-landscape.jpg") no-repeat left bottom ;
+    background-size: contain ;
+
+}

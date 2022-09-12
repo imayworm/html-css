@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/*config tela de lado*/
+
+body {
+    background: url("../imagens/cev-portrait.jpg") no-repeat center bottom;
+    background-size: contain ;
+}

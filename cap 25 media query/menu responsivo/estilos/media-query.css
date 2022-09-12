@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*todas as demais medias*/
+
+/*----------------------------------*/
+
+/*
+-- Pequenas telas (phones, até 600px)
+@media only screen and (max-width: 600px) {...}
+
+-- Pequenos dispositivos (telefones grandes, 600px até 768px )
+@media only screen and (min-width: 600px) {...}
+
+-- Dispositivos médios (landscape tablets, 768px and 992px)
+@media only screen and (min-width: 768px) {...}
+
+-- grandes dispositivos (laptops/desktops, 992px and 1200px)
+@media only screen and (min-width: 992px) {...}
+
+-- Grandes telas  (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...} */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 680px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main {
+        width: 900px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 900px;
+    }
+
+}
